@@ -130,7 +130,7 @@ function App() {
   return (
     <div style={styles.screen}>
       {showSuccess && <div style={styles.success}>✅Отправлено!</div>}
-      <h1 style={styles.title}>Нулевая терпимость</h1>
+      <h1 style={styles.title}> 0-Нулевая терпимость</h1>
       <div style={styles.container}>
         <textarea 
           value={text} 
@@ -146,7 +146,7 @@ function App() {
           </label>
 
           <button onClick={sendMessage} style={styles.sendBtn}>
-            ВІДПРАВИТИ 🚀
+            ОТПРАВИТЬ🚀
           </button>
         </div>
       </div>
